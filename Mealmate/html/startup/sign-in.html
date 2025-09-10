@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="" />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(75deg, #e11932, #ffb4bf);
+      }
+      .container {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .content {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+        max-height: 500px;
+        max-width: 500px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 24px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 30px rgba(255, 255, 255, 0.3);
+      }
+      button {
+        border: none;
+        margin: 10px;
+        padding: 10px;
+        width: 280px;
+        border-radius: 15px;
+        background-color: #fff;
+        border: 2px solid black;
+        transition: background-color 0.3s ease-in-out;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        color: white;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      }
+      button:hover {
+        background: rgba(255, 255, 255, 0.4);
+      }
+      p {
+        color: #fffefe;
+      }
+      h1 {
+        margin-bottom: 0px;
+      }
+
+      a {
+        text-decoration: underline;
+        color: #ffffff;
+      }
+      p:last-child {
+        margin-top: 0px;
+        font-size: 12px;
+      }
+      .google {
+        padding: 0px;
+        margin: 0px;
+        margin-right: 5px;
+        width: 14px;
+      }
+      .bg {
+        position: absolute;
+        font-size: 300px;
+        background: linear-gradient(90deg, #ffd6dc, #e11932);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* For Firefox */
+        background-clip: text;
+        color: transparent;
+        z-index: -1;
+      }
+      .phone {
+        padding: 0px;
+        margin: 0px;
+        margin-right: 5px;
+        width: 14px;
+        transform: scale(-1, -1) rotate(90deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="bg">Mealmate</p>
+      <div class="content">
+        <h1>Let's get in</h1>
+        <p>
+          We Are Happy To Help With Your Learning Journey <br />
+          Let's Dive in By Registering
+        </p>
+        <button>
+          <img src="../img/google.png" alt="" class="google" />Continue with
+          google
+        </button>
+        <button>
+          <img src="../img/phone.png" alt="" class="phone" />Continue with Phone
+        </button>
+        <p>(or)</p>
+        <button>Sign In With your Account</button>
+        <p>Dont have an Account?<a href="#">SIGN UP</a></p>
+      </div>
+    </div>
+  </body>
+</html>
